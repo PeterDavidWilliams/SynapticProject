@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Album]
+(
+	[Id] INT IDENTITY(1,1) PRIMARY KEY, 
+    [Name] NVARCHAR(MAX) NOT NULL
+)
